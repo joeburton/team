@@ -19,6 +19,14 @@ $ npx create-react-app team
 $ npm i --save-dev enzyme enzyme-adapter-react-16
 ```
 
+```
+# Add configuration for Enzyme and it's adaptor
+
+import Enzyme, {mount} from 'enzyme';
+import Adapter from 'enzyme-adapter-react-16';
+Enzyme.configure({ adapter: new Adapter() });
+```
+
 ###### Create a new GitHub repository team/
 
 ```
