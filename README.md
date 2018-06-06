@@ -1,4 +1,4 @@
-# React Presentation - Basic App Shell.
+# React Presentation - Using create-react-app and writing a basic component.
 
 
 ```
